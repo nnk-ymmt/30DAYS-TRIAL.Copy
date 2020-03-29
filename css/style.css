@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 html, body {
   padding: 0;
   margin: 0;
@@ -278,3 +279,313 @@ footer .container {
     text-align: center;
   }
 }
+=======
+body {
+  padding: 0;
+  margin: 0;
+  }
+  
+  .container {
+  width: 960px;
+  margin: auto;
+  }
+  
+  header {
+  width: 100%;
+  height: 72px;
+  }
+  
+  .header-logo {
+  font-size: 20px;
+  color: black;
+  font-weight: bold;
+  line-height: 72px;
+  float:left;
+  }
+  
+  .header-list {
+  float:right;
+  }
+  
+  .header-list ul {
+  margin: auto;
+  }
+  
+  .header-list li {
+  list-style: none;
+  float: left;
+  line-height: 72px;
+  margin: 0 24px;
+  }
+  
+  .header-list a {
+  font-size: 15px;
+  color: black;
+  font-weight: bold;
+  text-decoration: none;
+  }
+  
+  .top-img {
+  width: 100%;
+  position: relative;
+  }
+  
+  .top-message {
+  text-align: center;
+  width: 960px;
+  position: absolute;
+  left: 50%;
+  top: 35%;
+  transform: translate(-50%, -50%);
+  }
+  
+  .top-message h1 {
+  font-size: 40px;
+  }
+  
+  .top-message p {
+  font-size: 15px;
+  font-weight: bold;
+  margin: auto;
+  }
+  
+  .br1 {
+  display: none;
+  }
+  
+  .br2 {
+  display: none;
+  }
+  
+  h2 {
+  text-align: center;
+  padding-bottom: 20px;
+  }
+  
+  .about {
+  padding-bottom: 56px;
+  float: left;
+  }
+  
+  .about img {
+  width: 48%;
+  }
+  
+  .about p {
+  font-size: 15px;
+  float: right;
+  width: 48%;
+  margin: auto;
+  }
+  
+  .contents {
+  padding-bottom: 56px;
+  }
+  
+  .courses {
+  display: flex;
+  }
+  
+  .course {
+  flex: auto;
+  }
+  
+  .courses img {
+  width: 280px;
+  display: block;
+  margin: auto;
+  }
+  
+  .course p {
+  margin-top: 5px;
+  padding-left: 20px;
+  }
+  
+  .contact {
+  text-align: center;
+  }
+  
+  .contact p {
+  font-size: 15px;
+  padding-top: 15px;
+  padding-bottom: 0;
+  margin-bottom: 0;
+  }
+  
+  .contact input {
+  border-radius: 25px;
+  width: 500px;
+  height: 30px;
+  border-color: silver;
+  color: silver;
+  }
+  
+  .contact a {
+  display: block;
+  text-decoration: none;
+  background-color:rgb(228, 115, 115);
+  color: #fff;
+  font-size: 18px;
+  font-weight: bold;
+  width: 35%;
+  margin: auto;
+  padding: 15px 0;
+  margin-top: 20px;
+  margin-bottom: 90px;
+  }
+  
+  footer {
+  font-size: 13px;
+  text-align: right;
+  padding-bottom: 50px;
+  }
+  
+  @media(max-width: 959px) {
+  body {
+  padding: 0;
+  margin: 0;
+  }
+  
+  .container {
+  width: 100%;
+  margin: auto;
+  }
+  
+  .header-logo {
+  font-size: 28px;
+  color: black;
+  font-weight: bold;
+  text-align: center;
+  width: 100%;
+  height: 46px;
+  padding-top: 10px;
+  }
+  .header-list {
+  width: 100%;
+  text-align: center;
+  }
+  
+  .header-list ul {
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+  padding: 0;
+  }
+  
+  .header-list li {
+  font-size: 15px;
+  list-style: none;
+  margin: auto;
+  line-height: 64px;
+  }
+  
+  .top-img {
+  object-fit: cover;
+  height: 600px;
+  width: 100%;
+  object-position: 0 100%;
+  position: relative;
+  }
+  
+  .top-message {
+  position: absolute;
+  left: 50%;
+  top: 55%;
+  transform: translate(-50%, -50%);
+  width: 90%;
+  }
+  .top-message h1 {
+  font-size: 42px;
+  }
+  .top-message p {
+  font-size: 17px;
+  font-weight: normal;
+  width: 100%;
+  }
+  
+  .br2 {
+  display: block;
+  }
+  .br3 {
+  display: none;
+  }
+  h2 {
+  font-size: 25px;
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  }
+  .about {
+  padding-bottom: 72px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  }
+  .about img {
+  width: 80%;
+  }
+  .about p {
+  width: 90%;
+  font-size: 17px;
+  padding-top: 30px;
+  margin: 0;
+  }
+  .courses {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 50px;
+  }
+  .course {
+  flex: auto;
+  width: 90%;
+  }
+  .courses img {
+  width: 100%;
+  display: block;
+  margin: auto;
+  }
+  .course p {
+  margin-top: 5px;
+  padding-bottom: 10px;
+  padding-left: 5px;
+  }
+  .contact p {
+  font-size: 1px;
+  padding-bottom: 30px;
+  margin-bottom: 0;
+  padding-top: 0;
+  }
+  .contact input {
+  border-radius: 50px;
+  width: 90%;
+  height: 60px;
+  border-color: silver;
+  color: silver;
+  font-size: 25px;
+  }
+  .contact a {
+  display: block;
+  text-decoration: none;
+  background-color:rgb(228, 115, 115);
+  color: #fff;
+  font-size: 28px;
+  font-weight: bold;
+  width: 90%;
+  height: 65px;
+  margin-bottom: 90px;
+  margin-top: 20px;
+  line-height: 65px;
+  }
+  footer {
+  text-align: center;
+  font-size: 13px;
+  padding-bottom: 50px;
+  }
+  
+  .border {
+  width: 90%;
+  margin-bottom: 30px;
+  }
+  }
+>>>>>>> origin/master
